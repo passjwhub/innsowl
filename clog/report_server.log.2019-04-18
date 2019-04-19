@@ -1,0 +1,748 @@
+127.0.0.1 - - [18/Apr/2019 08:26:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2019 08:26:22] "GET / HTTP/1.1" 200 -
+[2019-04-18 08:26:22,994][ViewerServers.py:105][4533003712] 127.0.0.1 - - [18/Apr/2019 08:26:22] "GET / HTTP/1.1" 200 -
+
+127.0.0.1 - - [18/Apr/2019 08:26:23] "GET /css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2019 08:26:23] "GET /css/style.css HTTP/1.1" 200 -
+[2019-04-18 08:26:23,168][ViewerServers.py:105][4533003712] 127.0.0.1 - - [18/Apr/2019 08:26:23] "GET /css/style.css HTTP/1.1" 200 -
+
+127.0.0.1 - - [18/Apr/2019 08:26:23] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2019 08:26:23] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+[2019-04-18 08:26:23,197][ViewerServers.py:105][4533003712] 127.0.0.1 - - [18/Apr/2019 08:26:23] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+
+Traceback (most recent call last):
+  File "service_index.py", line 31, in <module>
+    start_index()
+  File "service_index.py", line 22, in start_index
+    run(port=8088)
+  File "/Users/fwk/Desktop/new_main_page/server/ViewerServers.py", line 316, in run
+    httpd.serve_forever()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 236, in serve_forever
+    ready = selector.select(poll_interval)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/selectors.py", line 376, in select
+    fd_event_list = self._poll.poll(timeout)
+KeyboardInterrupt
+127.0.0.1 - - [18/Apr/2019 08:28:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2019 08:28:59] "GET / HTTP/1.1" 200 -
+[2019-04-18 08:28:59,036][ViewerServers.py:105][4702262720] 127.0.0.1 - - [18/Apr/2019 08:28:59] "GET / HTTP/1.1" 200 -
+
+127.0.0.1 - - [18/Apr/2019 08:28:59] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2019 08:28:59] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+[2019-04-18 08:28:59,086][ViewerServers.py:105][4702262720] 127.0.0.1 - - [18/Apr/2019 08:28:59] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+
+Traceback (most recent call last):
+  File "service_index.py", line 31, in <module>
+    start_index()
+  File "service_index.py", line 22, in start_index
+    run(port=8088)
+  File "/Users/fwk/Desktop/new_main_page/server/ViewerServers.py", line 316, in run
+    httpd.serve_forever()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 241, in serve_forever
+    self._handle_request_noblock()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 320, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 351, in process_request
+    self.finish_request(request, client_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/server.py", line 418, in handle
+    self.handle_one_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/server.py", line 386, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+127.0.0.1 - - [18/Apr/2019 08:30:29] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2019 08:30:29] "GET / HTTP/1.1" 200 -
+[2019-04-18 08:30:29,903][ViewerServers.py:105][4641330624] 127.0.0.1 - - [18/Apr/2019 08:30:29] "GET / HTTP/1.1" 200 -
+
+127.0.0.1 - - [18/Apr/2019 08:30:31] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2019 08:30:31] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+[2019-04-18 08:30:31,258][ViewerServers.py:105][4641330624] 127.0.0.1 - - [18/Apr/2019 08:30:31] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+
+Traceback (most recent call last):
+  File "service_index.py", line 31, in <module>
+    start_index()
+  File "service_index.py", line 22, in start_index
+    run(port=8088)
+  File "/Users/fwk/Desktop/new_main_page/server/ViewerServers.py", line 316, in run
+    httpd.serve_forever()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 236, in serve_forever
+    ready = selector.select(poll_interval)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/selectors.py", line 376, in select
+    fd_event_list = self._poll.poll(timeout)
+KeyboardInterrupt
+127.0.0.1 - - [18/Apr/2019 08:33:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2019 08:33:01] "GET / HTTP/1.1" 200 -
+[2019-04-18 08:33:01,576][ViewerServers.py:105][4436555200] 127.0.0.1 - - [18/Apr/2019 08:33:01] "GET / HTTP/1.1" 200 -
+
+127.0.0.1 - - [18/Apr/2019 08:33:01] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2019 08:33:01] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+[2019-04-18 08:33:01,617][ViewerServers.py:105][4436555200] 127.0.0.1 - - [18/Apr/2019 08:33:01] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+
+Traceback (most recent call last):
+  File "service_index.py", line 31, in <module>
+    start_index()
+  File "service_index.py", line 22, in start_index
+    run(port=8088)
+  File "/Users/fwk/Desktop/new_main_page/server/ViewerServers.py", line 316, in run
+    httpd.serve_forever()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 241, in serve_forever
+    self._handle_request_noblock()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 320, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 351, in process_request
+    self.finish_request(request, client_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/server.py", line 418, in handle
+    self.handle_one_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/server.py", line 386, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+127.0.0.1 - - [18/Apr/2019 08:33:56] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2019 08:33:56] "GET / HTTP/1.1" 200 -
+[2019-04-18 08:33:56,419][ViewerServers.py:105][4437972416] 127.0.0.1 - - [18/Apr/2019 08:33:56] "GET / HTTP/1.1" 200 -
+
+127.0.0.1 - - [18/Apr/2019 08:33:56] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2019 08:33:56] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+[2019-04-18 08:33:56,460][ViewerServers.py:105][4437972416] 127.0.0.1 - - [18/Apr/2019 08:33:56] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+
+Traceback (most recent call last):
+  File "service_index.py", line 31, in <module>
+    start_index()
+  File "service_index.py", line 22, in start_index
+    run(port=8088)
+  File "/Users/fwk/Desktop/new_main_page/server/ViewerServers.py", line 316, in run
+    httpd.serve_forever()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 236, in serve_forever
+    ready = selector.select(poll_interval)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/selectors.py", line 376, in select
+    fd_event_list = self._poll.poll(timeout)
+KeyboardInterrupt
+127.0.0.1 - - [18/Apr/2019 08:34:20] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2019 08:34:20] "GET / HTTP/1.1" 200 -
+[2019-04-18 08:34:20,661][ViewerServers.py:105][4560266688] 127.0.0.1 - - [18/Apr/2019 08:34:20] "GET / HTTP/1.1" 200 -
+
+Traceback (most recent call last):
+  File "service_index.py", line 31, in <module>
+    start_index()
+  File "service_index.py", line 22, in start_index
+    run(port=8088)
+  File "/Users/fwk/Desktop/new_main_page/server/ViewerServers.py", line 316, in run
+    httpd.serve_forever()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 241, in serve_forever
+    self._handle_request_noblock()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 320, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 351, in process_request
+    self.finish_request(request, client_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/server.py", line 418, in handle
+    self.handle_one_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/server.py", line 386, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+127.0.0.1 - - [18/Apr/2019 08:34:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2019 08:34:47] "GET / HTTP/1.1" 200 -
+[2019-04-18 08:34:47,539][ViewerServers.py:105][4774720960] 127.0.0.1 - - [18/Apr/2019 08:34:47] "GET / HTTP/1.1" 200 -
+
+127.0.0.1 - - [18/Apr/2019 08:34:47] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2019 08:34:47] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+[2019-04-18 08:34:47,582][ViewerServers.py:105][4774720960] 127.0.0.1 - - [18/Apr/2019 08:34:47] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+
+Traceback (most recent call last):
+  File "service_index.py", line 31, in <module>
+    start_index()
+  File "service_index.py", line 22, in start_index
+    run(port=8088)
+  File "/Users/fwk/Desktop/new_main_page/server/ViewerServers.py", line 316, in run
+    httpd.serve_forever()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 241, in serve_forever
+    self._handle_request_noblock()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 320, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 351, in process_request
+    self.finish_request(request, client_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/server.py", line 418, in handle
+    self.handle_one_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/server.py", line 386, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+127.0.0.1 - - [18/Apr/2019 08:35:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2019 08:35:12] "GET / HTTP/1.1" 200 -
+[2019-04-18 08:35:12,278][ViewerServers.py:105][4643042752] 127.0.0.1 - - [18/Apr/2019 08:35:12] "GET / HTTP/1.1" 200 -
+
+Traceback (most recent call last):
+  File "service_index.py", line 31, in <module>
+    start_index()
+  File "service_index.py", line 22, in start_index
+    run(port=8088)
+  File "/Users/fwk/Desktop/new_main_page/server/ViewerServers.py", line 316, in run
+    httpd.serve_forever()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 241, in serve_forever
+    self._handle_request_noblock()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 320, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 351, in process_request
+    self.finish_request(request, client_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/server.py", line 418, in handle
+    self.handle_one_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/server.py", line 386, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+127.0.0.1 - - [18/Apr/2019 08:35:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2019 08:35:31] "GET / HTTP/1.1" 200 -
+[2019-04-18 08:35:31,355][ViewerServers.py:105][4553844160] 127.0.0.1 - - [18/Apr/2019 08:35:31] "GET / HTTP/1.1" 200 -
+
+127.0.0.1 - - [18/Apr/2019 08:35:31] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2019 08:35:31] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+[2019-04-18 08:35:31,397][ViewerServers.py:105][4553844160] 127.0.0.1 - - [18/Apr/2019 08:35:31] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+
+Traceback (most recent call last):
+  File "service_index.py", line 31, in <module>
+    start_index()
+  File "service_index.py", line 22, in start_index
+    run(port=8088)
+  File "/Users/fwk/Desktop/new_main_page/server/ViewerServers.py", line 316, in run
+    httpd.serve_forever()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 241, in serve_forever
+    self._handle_request_noblock()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 320, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 351, in process_request
+    self.finish_request(request, client_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/server.py", line 418, in handle
+    self.handle_one_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/server.py", line 386, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+127.0.0.1 - - [18/Apr/2019 08:35:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2019 08:35:51] "GET / HTTP/1.1" 200 -
+[2019-04-18 08:35:51,065][ViewerServers.py:105][4541752768] 127.0.0.1 - - [18/Apr/2019 08:35:51] "GET / HTTP/1.1" 200 -
+
+Traceback (most recent call last):
+  File "service_index.py", line 31, in <module>
+    start_index()
+  File "service_index.py", line 22, in start_index
+    run(port=8088)
+  File "/Users/fwk/Desktop/new_main_page/server/ViewerServers.py", line 316, in run
+    httpd.serve_forever()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 241, in serve_forever
+    self._handle_request_noblock()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 320, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 351, in process_request
+    self.finish_request(request, client_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/server.py", line 418, in handle
+    self.handle_one_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/server.py", line 386, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+127.0.0.1 - - [18/Apr/2019 08:36:06] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2019 08:36:06] "GET / HTTP/1.1" 200 -
+[2019-04-18 08:36:06,420][ViewerServers.py:105][4606875072] 127.0.0.1 - - [18/Apr/2019 08:36:06] "GET / HTTP/1.1" 200 -
+
+127.0.0.1 - - [18/Apr/2019 08:54:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2019 08:54:27] "GET / HTTP/1.1" 200 -
+[2019-04-18 08:54:27,842][ViewerServers.py:105][4606875072] 127.0.0.1 - - [18/Apr/2019 08:54:27] "GET / HTTP/1.1" 200 -
+
+127.0.0.1 - - [18/Apr/2019 08:54:27] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2019 08:54:27] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+[2019-04-18 08:54:27,876][ViewerServers.py:105][4606875072] 127.0.0.1 - - [18/Apr/2019 08:54:27] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+
+127.0.0.1 - - [18/Apr/2019 08:54:27] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2019 08:54:27] "GET /favicon.ico HTTP/1.1" 200 -
+[2019-04-18 08:54:27,893][ViewerServers.py:105][4606875072] 127.0.0.1 - - [18/Apr/2019 08:54:27] "GET /favicon.ico HTTP/1.1" 200 -
+
+Traceback (most recent call last):
+  File "service_index.py", line 31, in <module>
+    start_index()
+  File "service_index.py", line 22, in start_index
+    run(port=8088)
+  File "/Users/fwk/Desktop/new_main_page/server/ViewerServers.py", line 316, in run
+    httpd.serve_forever()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 241, in serve_forever
+    self._handle_request_noblock()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 320, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 351, in process_request
+    self.finish_request(request, client_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/server.py", line 418, in handle
+    self.handle_one_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/server.py", line 386, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+127.0.0.1 - - [18/Apr/2019 08:56:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2019 08:56:12] "GET / HTTP/1.1" 200 -
+[2019-04-18 08:56:12,390][ViewerServers.py:105][4624369088] 127.0.0.1 - - [18/Apr/2019 08:56:12] "GET / HTTP/1.1" 200 -
+
+127.0.0.1 - - [18/Apr/2019 08:56:12] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2019 08:56:12] "GET /favicon.ico HTTP/1.1" 200 -
+[2019-04-18 08:56:12,433][ViewerServers.py:105][4624369088] 127.0.0.1 - - [18/Apr/2019 08:56:12] "GET /favicon.ico HTTP/1.1" 200 -
+
+127.0.0.1 - - [18/Apr/2019 08:59:07] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2019 08:59:07] "GET / HTTP/1.1" 200 -
+[2019-04-18 08:59:07,623][ViewerServers.py:105][4624369088] 127.0.0.1 - - [18/Apr/2019 08:59:07] "GET / HTTP/1.1" 200 -
+
+127.0.0.1 - - [18/Apr/2019 08:59:07] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2019 08:59:07] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+[2019-04-18 08:59:07,657][ViewerServers.py:105][4624369088] 127.0.0.1 - - [18/Apr/2019 08:59:07] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+
+127.0.0.1 - - [18/Apr/2019 11:00:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2019 11:00:01] "GET / HTTP/1.1" 200 -
+[2019-04-18 11:00:01,465][ViewerServers.py:105][4624369088] 127.0.0.1 - - [18/Apr/2019 11:00:01] "GET / HTTP/1.1" 200 -
+
+127.0.0.1 - - [18/Apr/2019 11:00:01] "GET /css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2019 11:00:01] "GET /css/style.css HTTP/1.1" 200 -
+[2019-04-18 11:00:01,620][ViewerServers.py:105][4624369088] 127.0.0.1 - - [18/Apr/2019 11:00:01] "GET /css/style.css HTTP/1.1" 200 -
+
+127.0.0.1 - - [18/Apr/2019 11:00:01] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2019 11:00:01] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+[2019-04-18 11:00:01,645][ViewerServers.py:105][4624369088] 127.0.0.1 - - [18/Apr/2019 11:00:01] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+
+192.168.31.121 - - [18/Apr/2019 11:22:49] "GET / HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 11:22:49] "GET / HTTP/1.1" 200 -
+[2019-04-18 11:22:49,499][ViewerServers.py:105][4624369088] 192.168.31.121 - - [18/Apr/2019 11:22:49] "GET / HTTP/1.1" 200 -
+
+192.168.31.121 - - [18/Apr/2019 11:22:49] "GET /js/skel.min.js HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 11:22:49] "GET /js/skel.min.js HTTP/1.1" 200 -
+[2019-04-18 11:22:49,573][ViewerServers.py:105][4624369088] 192.168.31.121 - - [18/Apr/2019 11:22:49] "GET /js/skel.min.js HTTP/1.1" 200 -
+
+192.168.31.121 - - [18/Apr/2019 11:22:49] "GET /js/init.js HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 11:22:49] "GET /js/init.js HTTP/1.1" 200 -
+[2019-04-18 11:22:49,578][ViewerServers.py:105][4624369088] 192.168.31.121 - - [18/Apr/2019 11:22:49] "GET /js/init.js HTTP/1.1" 200 -
+
+192.168.31.121 - - [18/Apr/2019 11:22:49] "GET /css/style.css HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 11:22:49] "GET /css/style.css HTTP/1.1" 200 -
+[2019-04-18 11:22:49,678][ViewerServers.py:105][4624369088] 192.168.31.121 - - [18/Apr/2019 11:22:49] "GET /css/style.css HTTP/1.1" 200 -
+
+192.168.31.121 - - [18/Apr/2019 11:22:49] "GET /css/style-wide.css HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 11:22:49] "GET /css/style-wide.css HTTP/1.1" 200 -
+[2019-04-18 11:22:49,680][ViewerServers.py:105][4624369088] 192.168.31.121 - - [18/Apr/2019 11:22:49] "GET /css/style-wide.css HTTP/1.1" 200 -
+
+192.168.31.121 - - [18/Apr/2019 11:22:49] "GET /css/family-source.css HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 11:22:49] "GET /css/family-source.css HTTP/1.1" 200 -
+[2019-04-18 11:22:49,687][ViewerServers.py:105][4624369088] 192.168.31.121 - - [18/Apr/2019 11:22:49] "GET /css/family-source.css HTTP/1.1" 200 -
+
+192.168.31.121 - - [18/Apr/2019 11:22:49] "GET /css/font-awesome.min.css HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 11:22:49] "GET /css/font-awesome.min.css HTTP/1.1" 200 -
+[2019-04-18 11:22:49,689][ViewerServers.py:105][4624369088] 192.168.31.121 - - [18/Apr/2019 11:22:49] "GET /css/font-awesome.min.css HTTP/1.1" 200 -
+
+192.168.31.121 - - [18/Apr/2019 11:22:49] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 11:22:49] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+[2019-04-18 11:22:49,710][ViewerServers.py:105][4624369088] 192.168.31.121 - - [18/Apr/2019 11:22:49] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+
+192.168.31.121 - - [18/Apr/2019 11:22:49] "GET /css/images/overlay-pattern.png HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 11:22:49] "GET /css/images/overlay-pattern.png HTTP/1.1" 200 -
+[2019-04-18 11:22:49,751][ViewerServers.py:105][4624369088] 192.168.31.121 - - [18/Apr/2019 11:22:49] "GET /css/images/overlay-pattern.png HTTP/1.1" 200 -
+
+192.168.31.121 - - [18/Apr/2019 11:22:49] "GET /css/images/overlay.svg HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 11:22:49] "GET /css/images/overlay.svg HTTP/1.1" 200 -
+[2019-04-18 11:22:49,753][ViewerServers.py:105][4624369088] 192.168.31.121 - - [18/Apr/2019 11:22:49] "GET /css/images/overlay.svg HTTP/1.1" 200 -
+
+192.168.31.121 - - [18/Apr/2019 11:22:49] "GET /fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 11:22:49] "GET /fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 -
+[2019-04-18 11:22:49,754][ViewerServers.py:105][4624369088] 192.168.31.121 - - [18/Apr/2019 11:22:49] "GET /fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 -
+
+192.168.31.121 - - [18/Apr/2019 11:22:49] "GET /favicon.ico HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 11:22:49] "GET /favicon.ico HTTP/1.1" 200 -
+[2019-04-18 11:22:49,756][ViewerServers.py:105][4624369088] 192.168.31.121 - - [18/Apr/2019 11:22:49] "GET /favicon.ico HTTP/1.1" 200 -
+
+Traceback (most recent call last):
+  File "service_index.py", line 31, in <module>
+    start_index()
+  File "service_index.py", line 22, in start_index
+    run(port=8088)
+  File "/Users/fwk/Desktop/new_main_page/server/ViewerServers.py", line 316, in run
+    httpd.serve_forever()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 236, in serve_forever
+    ready = selector.select(poll_interval)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/selectors.py", line 376, in select
+    fd_event_list = self._poll.poll(timeout)
+KeyboardInterrupt
+192.168.31.121 - - [18/Apr/2019 11:25:41] "GET / HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 11:25:41] "GET / HTTP/1.1" 200 -
+[2019-04-18 11:25:41,964][ViewerServers.py:105][4600567232] 192.168.31.121 - - [18/Apr/2019 11:25:41] "GET / HTTP/1.1" 200 -
+
+192.168.31.121 - - [18/Apr/2019 11:30:24] "GET / HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 11:30:24] "GET / HTTP/1.1" 200 -
+[2019-04-18 11:30:24,518][ViewerServers.py:105][4600567232] 192.168.31.121 - - [18/Apr/2019 11:30:24] "GET / HTTP/1.1" 200 -
+
+Traceback (most recent call last):
+  File "service_index.py", line 31, in <module>
+    start_index()
+  File "service_index.py", line 22, in start_index
+    run(port=8088)
+  File "/Users/fwk/Desktop/new_main_page/server/ViewerServers.py", line 316, in run
+    httpd.serve_forever()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 241, in serve_forever
+    self._handle_request_noblock()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 320, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 351, in process_request
+    self.finish_request(request, client_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/server.py", line 418, in handle
+    self.handle_one_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/server.py", line 386, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+192.168.31.121 - - [18/Apr/2019 11:30:44] "GET / HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 11:30:44] "GET / HTTP/1.1" 200 -
+[2019-04-18 11:30:44,382][ViewerServers.py:105][4783130048] 192.168.31.121 - - [18/Apr/2019 11:30:44] "GET / HTTP/1.1" 200 -
+
+192.168.31.121 - - [18/Apr/2019 11:48:29] "GET / HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 11:48:29] "GET / HTTP/1.1" 200 -
+[2019-04-18 11:48:29,045][ViewerServers.py:105][4783130048] 192.168.31.121 - - [18/Apr/2019 11:48:29] "GET / HTTP/1.1" 200 -
+
+192.168.31.121 - - [18/Apr/2019 11:48:29] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 11:48:29] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+[2019-04-18 11:48:29,077][ViewerServers.py:105][4783130048] 192.168.31.121 - - [18/Apr/2019 11:48:29] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+
+192.168.31.121 - - [18/Apr/2019 11:49:24] "GET / HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 11:49:24] "GET / HTTP/1.1" 200 -
+[2019-04-18 11:49:24,016][ViewerServers.py:105][4783130048] 192.168.31.121 - - [18/Apr/2019 11:49:24] "GET / HTTP/1.1" 200 -
+
+192.168.31.121 - - [18/Apr/2019 11:50:49] "GET / HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 11:50:49] "GET / HTTP/1.1" 200 -
+[2019-04-18 11:50:49,563][ViewerServers.py:105][4783130048] 192.168.31.121 - - [18/Apr/2019 11:50:49] "GET / HTTP/1.1" 200 -
+
+Traceback (most recent call last):
+  File "service_index.py", line 31, in <module>
+    start_index()
+  File "service_index.py", line 22, in start_index
+    run(port=8088)
+  File "/Users/fwk/Desktop/new_main_page/server/ViewerServers.py", line 316, in run
+    httpd.serve_forever()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 241, in serve_forever
+    self._handle_request_noblock()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 320, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 351, in process_request
+    self.finish_request(request, client_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/server.py", line 418, in handle
+    self.handle_one_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/server.py", line 386, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+192.168.31.121 - - [18/Apr/2019 11:53:00] "GET / HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 11:53:00] "GET / HTTP/1.1" 200 -
+[2019-04-18 11:53:00,033][ViewerServers.py:105][4803896768] 192.168.31.121 - - [18/Apr/2019 11:53:00] "GET / HTTP/1.1" 200 -
+
+192.168.31.121 - - [18/Apr/2019 11:53:25] "GET / HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 11:53:25] "GET / HTTP/1.1" 200 -
+[2019-04-18 11:53:25,610][ViewerServers.py:105][4803896768] 192.168.31.121 - - [18/Apr/2019 11:53:25] "GET / HTTP/1.1" 200 -
+
+Traceback (most recent call last):
+  File "service_index.py", line 31, in <module>
+    start_index()
+  File "service_index.py", line 22, in start_index
+    run(port=8088)
+  File "/Users/fwk/Desktop/new_main_page/server/ViewerServers.py", line 316, in run
+    httpd.serve_forever()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 236, in serve_forever
+    ready = selector.select(poll_interval)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/selectors.py", line 376, in select
+    fd_event_list = self._poll.poll(timeout)
+KeyboardInterrupt
+192.168.31.121 - - [18/Apr/2019 12:17:02] "GET / HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 12:17:02] "GET / HTTP/1.1" 200 -
+[2019-04-18 12:17:02,476][ViewerServers.py:105][4494394816] 192.168.31.121 - - [18/Apr/2019 12:17:02] "GET / HTTP/1.1" 200 -
+
+192.168.31.121 - - [18/Apr/2019 12:17:02] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 12:17:02] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+[2019-04-18 12:17:02,512][ViewerServers.py:105][4494394816] 192.168.31.121 - - [18/Apr/2019 12:17:02] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+
+192.168.31.121 - - [18/Apr/2019 12:17:14] "GET / HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 12:17:14] "GET / HTTP/1.1" 200 -
+[2019-04-18 12:17:14,444][ViewerServers.py:105][4494394816] 192.168.31.121 - - [18/Apr/2019 12:17:14] "GET / HTTP/1.1" 200 -
+
+192.168.31.121 - - [18/Apr/2019 12:17:14] "GET /js/skel.min.js HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 12:17:14] "GET /js/skel.min.js HTTP/1.1" 200 -
+[2019-04-18 12:17:14,460][ViewerServers.py:105][4494394816] 192.168.31.121 - - [18/Apr/2019 12:17:14] "GET /js/skel.min.js HTTP/1.1" 200 -
+
+192.168.31.121 - - [18/Apr/2019 12:17:14] "GET /js/init.js HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 12:17:14] "GET /js/init.js HTTP/1.1" 200 -
+[2019-04-18 12:17:14,464][ViewerServers.py:105][4494394816] 192.168.31.121 - - [18/Apr/2019 12:17:14] "GET /js/init.js HTTP/1.1" 200 -
+
+192.168.31.121 - - [18/Apr/2019 12:17:14] "GET /css/style.css HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 12:17:14] "GET /css/style.css HTTP/1.1" 200 -
+[2019-04-18 12:17:14,488][ViewerServers.py:105][4494394816] 192.168.31.121 - - [18/Apr/2019 12:17:14] "GET /css/style.css HTTP/1.1" 200 -
+
+192.168.31.121 - - [18/Apr/2019 12:17:14] "GET /css/style-wide.css HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 12:17:14] "GET /css/style-wide.css HTTP/1.1" 200 -
+[2019-04-18 12:17:14,491][ViewerServers.py:105][4494394816] 192.168.31.121 - - [18/Apr/2019 12:17:14] "GET /css/style-wide.css HTTP/1.1" 200 -
+
+192.168.31.121 - - [18/Apr/2019 12:17:14] "GET /css/family-source.css HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 12:17:14] "GET /css/family-source.css HTTP/1.1" 200 -
+[2019-04-18 12:17:14,498][ViewerServers.py:105][4494394816] 192.168.31.121 - - [18/Apr/2019 12:17:14] "GET /css/family-source.css HTTP/1.1" 200 -
+
+192.168.31.121 - - [18/Apr/2019 12:17:14] "GET /css/font-awesome.min.css HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 12:17:14] "GET /css/font-awesome.min.css HTTP/1.1" 200 -
+[2019-04-18 12:17:14,501][ViewerServers.py:105][4494394816] 192.168.31.121 - - [18/Apr/2019 12:17:14] "GET /css/font-awesome.min.css HTTP/1.1" 200 -
+
+192.168.31.121 - - [18/Apr/2019 12:17:14] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 12:17:14] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+[2019-04-18 12:17:14,510][ViewerServers.py:105][4494394816] 192.168.31.121 - - [18/Apr/2019 12:17:14] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+
+192.168.31.121 - - [18/Apr/2019 12:17:14] "GET /css/images/overlay-pattern.png HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 12:17:14] "GET /css/images/overlay-pattern.png HTTP/1.1" 200 -
+[2019-04-18 12:17:14,535][ViewerServers.py:105][4494394816] 192.168.31.121 - - [18/Apr/2019 12:17:14] "GET /css/images/overlay-pattern.png HTTP/1.1" 200 -
+
+192.168.31.121 - - [18/Apr/2019 12:17:14] "GET /css/images/overlay.svg HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 12:17:14] "GET /css/images/overlay.svg HTTP/1.1" 200 -
+[2019-04-18 12:17:14,537][ViewerServers.py:105][4494394816] 192.168.31.121 - - [18/Apr/2019 12:17:14] "GET /css/images/overlay.svg HTTP/1.1" 200 -
+
+192.168.31.121 - - [18/Apr/2019 12:17:14] "GET /fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 12:17:14] "GET /fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 -
+[2019-04-18 12:17:14,539][ViewerServers.py:105][4494394816] 192.168.31.121 - - [18/Apr/2019 12:17:14] "GET /fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 -
+
+192.168.31.121 - - [18/Apr/2019 12:17:14] "GET /favicon.ico HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 12:17:14] "GET /favicon.ico HTTP/1.1" 200 -
+[2019-04-18 12:17:14,542][ViewerServers.py:105][4494394816] 192.168.31.121 - - [18/Apr/2019 12:17:14] "GET /favicon.ico HTTP/1.1" 200 -
+
+Traceback (most recent call last):
+  File "service_index.py", line 31, in <module>
+    #     executor.submit(start_index)
+  File "service_index.py", line 22, in start_index
+    else:
+  File "/Users/fwk/Desktop/new_main_page/server/ViewerServers.py", line 316, in run
+    httpd.serve_forever()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 236, in serve_forever
+    ready = selector.select(poll_interval)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/selectors.py", line 376, in select
+    fd_event_list = self._poll.poll(timeout)
+KeyboardInterrupt
+127.0.0.1 - - [18/Apr/2019 13:09:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2019 13:09:51] "GET / HTTP/1.1" 200 -
+[2019-04-18 13:09:51,643][ViewerServers.py:105][4573009344] 127.0.0.1 - - [18/Apr/2019 13:09:51] "GET / HTTP/1.1" 200 -
+
+127.0.0.1 - - [18/Apr/2019 13:09:51] "GET /js/skel.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2019 13:09:51] "GET /js/skel.min.js HTTP/1.1" 200 -
+[2019-04-18 13:09:51,656][ViewerServers.py:105][4573009344] 127.0.0.1 - - [18/Apr/2019 13:09:51] "GET /js/skel.min.js HTTP/1.1" 200 -
+
+127.0.0.1 - - [18/Apr/2019 13:09:51] "GET /js/init.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2019 13:09:51] "GET /js/init.js HTTP/1.1" 200 -
+[2019-04-18 13:09:51,659][ViewerServers.py:105][4573009344] 127.0.0.1 - - [18/Apr/2019 13:09:51] "GET /js/init.js HTTP/1.1" 200 -
+
+127.0.0.1 - - [18/Apr/2019 13:09:51] "GET /css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2019 13:09:51] "GET /css/style.css HTTP/1.1" 200 -
+[2019-04-18 13:09:51,680][ViewerServers.py:105][4573009344] 127.0.0.1 - - [18/Apr/2019 13:09:51] "GET /css/style.css HTTP/1.1" 200 -
+
+127.0.0.1 - - [18/Apr/2019 13:09:51] "GET /css/style-wide.css HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2019 13:09:51] "GET /css/style-wide.css HTTP/1.1" 200 -
+[2019-04-18 13:09:51,683][ViewerServers.py:105][4573009344] 127.0.0.1 - - [18/Apr/2019 13:09:51] "GET /css/style-wide.css HTTP/1.1" 200 -
+
+127.0.0.1 - - [18/Apr/2019 13:09:51] "GET /css/family-source.css HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2019 13:09:51] "GET /css/family-source.css HTTP/1.1" 200 -
+[2019-04-18 13:09:51,694][ViewerServers.py:105][4573009344] 127.0.0.1 - - [18/Apr/2019 13:09:51] "GET /css/family-source.css HTTP/1.1" 200 -
+
+127.0.0.1 - - [18/Apr/2019 13:09:51] "GET /css/font-awesome.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2019 13:09:51] "GET /css/font-awesome.min.css HTTP/1.1" 200 -
+[2019-04-18 13:09:51,695][ViewerServers.py:105][4573009344] 127.0.0.1 - - [18/Apr/2019 13:09:51] "GET /css/font-awesome.min.css HTTP/1.1" 200 -
+
+127.0.0.1 - - [18/Apr/2019 13:09:51] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2019 13:09:51] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+[2019-04-18 13:09:51,712][ViewerServers.py:105][4573009344] 127.0.0.1 - - [18/Apr/2019 13:09:51] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+
+127.0.0.1 - - [18/Apr/2019 13:09:51] "GET /css/images/overlay-pattern.png HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2019 13:09:51] "GET /css/images/overlay-pattern.png HTTP/1.1" 200 -
+[2019-04-18 13:09:51,758][ViewerServers.py:105][4573009344] 127.0.0.1 - - [18/Apr/2019 13:09:51] "GET /css/images/overlay-pattern.png HTTP/1.1" 200 -
+
+127.0.0.1 - - [18/Apr/2019 13:09:51] "GET /css/images/overlay.svg HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2019 13:09:51] "GET /css/images/overlay.svg HTTP/1.1" 200 -
+[2019-04-18 13:09:51,760][ViewerServers.py:105][4573009344] 127.0.0.1 - - [18/Apr/2019 13:09:51] "GET /css/images/overlay.svg HTTP/1.1" 200 -
+
+127.0.0.1 - - [18/Apr/2019 13:09:51] "GET /fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 -
+127.0.0.1 - - [18/Apr/2019 13:09:51] "GET /fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 -
+[2019-04-18 13:09:51,761][ViewerServers.py:105][4573009344] 127.0.0.1 - - [18/Apr/2019 13:09:51] "GET /fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 -
+
+192.168.31.121 - - [18/Apr/2019 13:09:59] "GET / HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 13:09:59] "GET / HTTP/1.1" 200 -
+[2019-04-18 13:09:59,512][ViewerServers.py:105][4573009344] 192.168.31.121 - - [18/Apr/2019 13:09:59] "GET / HTTP/1.1" 200 -
+
+192.168.31.121 - - [18/Apr/2019 13:09:59] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 13:09:59] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+[2019-04-18 13:09:59,739][ViewerServers.py:105][4573009344] 192.168.31.121 - - [18/Apr/2019 13:09:59] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+
+Traceback (most recent call last):
+  File "service_index.py", line 30, in <module>
+    start_index()
+  File "service_index.py", line 21, in start_index
+    run(port=8088)
+  File "/Users/fwk/Desktop/new_main_page/server/ViewerServers.py", line 316, in run
+    httpd.serve_forever()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 236, in serve_forever
+    ready = selector.select(poll_interval)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/selectors.py", line 376, in select
+    fd_event_list = self._poll.poll(timeout)
+KeyboardInterrupt
+192.168.31.121 - - [18/Apr/2019 13:11:50] "GET / HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 13:11:50] "GET / HTTP/1.1" 200 -
+[2019-04-18 13:11:50,643][ViewerServers.py:105][4530304448] 192.168.31.121 - - [18/Apr/2019 13:11:50] "GET / HTTP/1.1" 200 -
+
+192.168.31.121 - - [18/Apr/2019 13:11:50] "GET /favicon.ico HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 13:11:50] "GET /favicon.ico HTTP/1.1" 200 -
+[2019-04-18 13:11:50,700][ViewerServers.py:105][4530304448] 192.168.31.121 - - [18/Apr/2019 13:11:50] "GET /favicon.ico HTTP/1.1" 200 -
+
+Traceback (most recent call last):
+  File "service_index.py", line 30, in <module>
+    start_index()
+  File "service_index.py", line 21, in start_index
+    run(port=8088)
+  File "/Users/fwk/Desktop/new_main_page/server/ViewerServers.py", line 316, in run
+    httpd.serve_forever()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 241, in serve_forever
+    self._handle_request_noblock()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 320, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 351, in process_request
+    self.finish_request(request, client_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/server.py", line 418, in handle
+    self.handle_one_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/server.py", line 386, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+192.168.31.121 - - [18/Apr/2019 13:12:34] "GET / HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 13:12:34] "GET / HTTP/1.1" 200 -
+[2019-04-18 13:12:34,204][ViewerServers.py:105][4734358976] 192.168.31.121 - - [18/Apr/2019 13:12:34] "GET / HTTP/1.1" 200 -
+
+Traceback (most recent call last):
+  File "service_index.py", line 30, in <module>
+    start_index()
+  File "service_index.py", line 21, in start_index
+    run(port=8088)
+  File "/Users/fwk/Desktop/new_main_page/server/ViewerServers.py", line 316, in run
+    httpd.serve_forever()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 241, in serve_forever
+    self._handle_request_noblock()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 320, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 351, in process_request
+    self.finish_request(request, client_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/server.py", line 418, in handle
+    self.handle_one_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/server.py", line 386, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+192.168.31.121 - - [18/Apr/2019 13:12:56] "GET / HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 13:12:56] "GET / HTTP/1.1" 200 -
+[2019-04-18 13:12:56,456][ViewerServers.py:105][4528317888] 192.168.31.121 - - [18/Apr/2019 13:12:56] "GET / HTTP/1.1" 200 -
+
+Traceback (most recent call last):
+  File "service_index.py", line 30, in <module>
+    start_index()
+  File "service_index.py", line 21, in start_index
+    run(port=8088)
+  File "/Users/fwk/Desktop/new_main_page/server/ViewerServers.py", line 316, in run
+    httpd.serve_forever()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 236, in serve_forever
+    ready = selector.select(poll_interval)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/selectors.py", line 376, in select
+    fd_event_list = self._poll.poll(timeout)
+KeyboardInterrupt
+192.168.31.121 - - [18/Apr/2019 13:47:46] "GET / HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 13:47:46] "GET / HTTP/1.1" 200 -
+[2019-04-18 13:47:46,490][ViewerServers.py:105][4462187968] 192.168.31.121 - - [18/Apr/2019 13:47:46] "GET / HTTP/1.1" 200 -
+
+192.168.31.121 - - [18/Apr/2019 13:47:46] "GET /css/style.css HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 13:47:46] "GET /css/style.css HTTP/1.1" 200 -
+[2019-04-18 13:47:46,529][ViewerServers.py:105][4462187968] 192.168.31.121 - - [18/Apr/2019 13:47:46] "GET /css/style.css HTTP/1.1" 200 -
+
+192.168.31.121 - - [18/Apr/2019 13:47:46] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 13:47:46] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+[2019-04-18 13:47:46,556][ViewerServers.py:105][4462187968] 192.168.31.121 - - [18/Apr/2019 13:47:46] "GET /css/images/the_earth.jpg HTTP/1.1" 200 -
+
+192.168.31.121 - - [18/Apr/2019 14:11:54] "GET / HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 14:11:54] "GET / HTTP/1.1" 200 -
+[2019-04-18 14:11:54,570][ViewerServers.py:105][4462187968] 192.168.31.121 - - [18/Apr/2019 14:11:54] "GET / HTTP/1.1" 200 -
+
+192.168.31.121 - - [18/Apr/2019 14:46:45] "GET / HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 14:46:45] "GET / HTTP/1.1" 200 -
+[2019-04-18 14:46:45,005][ViewerServers.py:105][4462187968] 192.168.31.121 - - [18/Apr/2019 14:46:45] "GET / HTTP/1.1" 200 -
+
+192.168.31.121 - - [18/Apr/2019 14:59:38] "GET / HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 14:59:38] "GET / HTTP/1.1" 200 -
+[2019-04-18 14:59:38,074][ViewerServers.py:105][4462187968] 192.168.31.121 - - [18/Apr/2019 14:59:38] "GET / HTTP/1.1" 200 -
+
+192.168.31.121 - - [18/Apr/2019 15:07:55] "GET / HTTP/1.1" 200 -
+192.168.31.121 - - [18/Apr/2019 15:07:55] "GET / HTTP/1.1" 200 -
+[2019-04-18 15:07:55,813][ViewerServers.py:105][4462187968] 192.168.31.121 - - [18/Apr/2019 15:07:55] "GET / HTTP/1.1" 200 -
+
+Traceback (most recent call last):
+  File "service_index.py", line 30, in <module>
+    start_index()
+  File "service_index.py", line 21, in start_index
+    run(port=8088)
+  File "/Users/fwk/Desktop/new_main_page/server/ViewerServers.py", line 316, in run
+    httpd.serve_forever()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socketserver.py", line 236, in serve_forever
+    ready = selector.select(poll_interval)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/selectors.py", line 376, in select
+    fd_event_list = self._poll.poll(timeout)
+KeyboardInterrupt

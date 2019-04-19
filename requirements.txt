@@ -1,0 +1,3 @@
+# this requirements file is used by Develip
+# requirements for other configurations are located in the requirements subdirectory
+-r requirements/dev-package.txt
