@@ -1,6 +1,4 @@
-# innsowl
-
-InnsOwl
+# InnsOwl
 ======
 
 knowledge site blog
